@@ -3,17 +3,27 @@
 To develop a Heart Disease Prediction model using machine learning classification algorithms and compare the performance of different models using suitable evaluation metrics.
 ##  OBJECTIVES
 •	To understand machine learning classification. 
+
 •	To analyze a heart disease dataset. 
+
 •	To identify the input features and target variable. 
+
 •	To preprocess the dataset. 
+
 •	To divide the dataset into training and testing data. 
+
 •	To train different classification models. 
+
 •	To predict whether a patient has heart disease. 
+
 •	To evaluate and compare the models. 
 ## INTRODUCTION
 •	Machine Learning enables computers to learn patterns from data and make predictions. 
-•	Classification is a supervised learning technique used to predict categories or classes. 
+
+•	Classification is a supervised learning technique used to predict categories or classes.
+
 •	In this experiment, classification algorithms are used to predict whether a patient is likely to have heart disease. 
+
 •	The output generally contains two classes: 
 o	0 – No Heart Disease 
 o	1 – Heart Disease 
@@ -181,11 +191,16 @@ for name, prediction in models.items():
     print()
 ## MODEL COMPARISON
 <img width="591" height="191" alt="image" src="https://github.com/user-attachments/assets/6bb058f3-4231-475d-92d1-2e64233ac6a0" />
+
 Comparison
 •	Higher Accuracy → Better overall classification. 
+
 •	Higher Precision → Fewer false-positive predictions. 
+
 •	Higher Recall → Better identification of patients with heart disease. 
+
 •	Higher F1-score → Better balance between precision and recall. 
+
 For a medical prediction task, recall is particularly important because missing a patient who actually has the condition can be more concerning than generating an extra positive prediction.
 ## CONFUSION MATRIX
 from sklearn.metrics import confusion_matrix
